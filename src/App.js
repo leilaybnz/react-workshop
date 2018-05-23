@@ -3,7 +3,7 @@ import profile from './assets/profile.jpg'
 import './App.css';
 import Primary from '../src/components/Primary/Primary';
 import Nav from '../src/components/Nav/Nav';
-import styled from 'styled-components';
+import { BrowseRouter as Router, Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
