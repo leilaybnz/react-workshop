@@ -1,15 +1,16 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import style from './styles.css';
 
 const Nav = (props) => {
     return (
-        <div>
+        <div className="lista">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>            
+                <li className="home">{props.home}</li>
+                <li className="about">{props.about}</li>
+                <li className="contact">{props.contact}</li>            
             </ul>
         </div>
     )
 }
 
-export default Nav
+export default Nav;

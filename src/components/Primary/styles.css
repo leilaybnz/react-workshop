@@ -1,0 +1,16 @@
+body {
+    @import url('https://fonts.googleapis.com/css?family=Sunflower:300');
+    font-family: 'Sunflower', sans-serif;
+}
+
+.box {
+    margin: 50px;
+    color: lightgrey;
+}
+
+.profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
