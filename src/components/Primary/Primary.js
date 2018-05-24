@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import styles from './styles.css'
 
 const Primary = (props) => {
     return (
