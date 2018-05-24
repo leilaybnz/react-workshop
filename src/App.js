@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import profile from './assets/profile.jpg'
 import './App.css';
 import Primary from '../src/components/Primary/Primary';
 import Nav from '../src/components/Nav/Nav';
@@ -16,10 +15,11 @@ class App extends Component {
       <Router history={history}>
       <div className="App">
         <div className="App-main">
-          <Nav home={"Home"} about={"About"} contact={"Contact"} />
           <Switch>
+            <Route exact path="/" component={Primary} />
             <Route path="/about" component={About} />
           </Switch>
+          <Nav />
         </div>
       </div>
       </Router>
